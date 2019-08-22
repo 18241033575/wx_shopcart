@@ -1,0 +1,45 @@
+{
+  "pages": [
+    "pages/shopping/shopping",
+    "pages/like/like",
+    "pages/home/home",
+    "pages/mine/mine"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "门店列表",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "borderStyle": "black",
+    "backgroundColor": "white",
+    "selectedColor": "#f30000",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath": "/images/shop.png",
+        "selectedIconPath": "/images/shop_selected.png"
+      },
+      {
+        "pagePath": "pages/like/like",
+        "text": "喜欢",
+        "iconPath": "/images/heart.png",
+        "selectedIconPath": "/images/heart_selected.png"
+      },
+      {
+        "pagePath": "pages/shopping/shopping",
+        "text": "商城",
+        "iconPath": "/images/lock.png",
+        "selectedIconPath": "/images/lock_selected.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我的",
+        "iconPath": "/images/me2.png",
+        "selectedIconPath": "/images/me2_selected.png"
+      }
+    ]
+  }
+}

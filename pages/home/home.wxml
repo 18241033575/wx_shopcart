@@ -1,0 +1,32 @@
+<!--pages/home/home.wxml-->
+<view class='container'>
+  <!-- 搜索框 -->
+  <view class='search'>
+    <image src='/images/scan.png'></image> 
+    <view class='search_input'>
+      <view class='search_msg'>
+        <image src='/images/Search.png'></image>
+        <text>搜索</text>
+      </view>
+      <input /> 
+    </view>
+    <image src='/images/icon-location.png'></image> 
+  </view>
+
+  <!-- 分类列表 -->
+  <view class='category_list'>
+    <view class='category_cell'
+          wx:for="{{ category_data }}"
+          data-action='{{category_item}}' 
+          wx:key='index'
+          wx:for-item="category_item"
+    >
+      <image src='{{ category_item.url }}' mode='widthFix'></image>
+      <view>{{ category_item.name }}</view>
+    </view>
+  </view>
+  <!-- 推荐 -->
+  <view class='remand'>
+    <view>为您推荐</view>
+  </view>
+</view>

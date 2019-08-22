@@ -1,0 +1,8 @@
+<!--pages/shopping/shopping.wxml-->
+<view class='container'>
+  <scroll-view scroll-x enable-flex='true' class='shopping_category'>
+    <view class='cate_item' wx:for="{{ shopping_category }}" data-action='{{category_item}}' wx:key='category_item.id' wx:for-item="category_item">
+      {{ category_item.name }}
+    </view>
+  </scroll-view>
+</view>

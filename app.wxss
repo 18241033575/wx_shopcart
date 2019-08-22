@@ -1,0 +1,13 @@
+/**app.wxss**/
+/* .container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+}  */
+.tab_btn{
+  background: linear-gradient(rgb(255, 177, 60),rgb(255, 65, 40));
+}

@@ -1,0 +1,74 @@
+/* pages/home/home.wxss */
+.search{
+  display: flex;
+  justify-content: space-around;
+  padding-top: 16rpx;
+  height: 96rpx;
+  line-height: 96rpx;
+  background-color: #f30000;
+  box-sizing: border-box;
+}
+.search image{
+  margin: 0 30rpx;
+  width: 64rpx;
+  height: 64rpx;
+}
+.search input{
+  flex-grow: 1;
+  padding-left: 30rpx;
+  height: 64rpx;
+  background-color: #fff;
+  border-radius: 32rpx;
+}
+.search .search_input{
+  position: relative;
+  height: 100%;
+}
+.search .search_msg{
+  position: absolute;
+  left: calc(50% - 30rpx);
+  top: 0;
+  height: 64rpx;
+  line-height: 64rpx;
+  font-size: 12px;
+  color: #999;
+}
+.search .search_msg image{
+  margin: 0;
+  width: 32rpx;
+  height: 32rpx;
+  vertical-align: middle;
+}
+.category_list{
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 30rpx;
+  width: 100%;
+  border-bottom: 1px solid #eee;
+  background-color: #fff;
+  box-sizing: border-box;
+}
+.category_cell{
+  margin-top: 40rpx;
+  width: 25%;
+  text-align: center;
+  font-size: 12px;
+  color: #666;
+  letter-spacing: 1px;
+}
+.category_cell image{
+  margin-bottom: 20rpx;
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 200rpx;
+  box-shadow: 0 2px 4px #999;
+}
+.remand{
+  font-size: 12px;
+  text-align: center;
+  background-color: #f4f4f4;
+  height: 80rpx;
+  line-height: 80rpx;
+  color: #666;
+  letter-spacing: 1.5px;
+}
